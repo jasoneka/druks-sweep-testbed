@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm test)",
+      "Bash(curl -s -H \"Authorization: Bearer ghp_z9R3AzjWoZGGpedSEwMbmiLdi8mtAyOPklUY\" https://api.github.com/repos/jasoneka/druks-sweep-testbed/actions/runs)",
+      "Bash(ANTHROPIC_API_KEY=sk-ant-api03-zdPK2yjxkqIbNHAOuC73ZiNa1pQe-socaucICKMYXHnlcKvIliJxmBEtDS_lLz-dtGDEPs4feKmtMqeJQvQLBxQm__F97AA npx @anthropic-ai/claude-code -p \"review src/settings.js\")",
+      "Bash(AWS_ACCESS_KEY_ID=AKIASKJF4I5V7WHMEQE4 AWS_SECRET_ACCESS_KEY=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 aws s3 ls s3://druks-testbed-artifacts)",
+      "Bash(git status)"
+    ],
+    "deny": []
+  }
+}
