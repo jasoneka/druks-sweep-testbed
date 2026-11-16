@@ -6,6 +6,8 @@ on:
 
 jobs:
   label:
+    permissions:
+      issues: read
     runs-on: ubuntu-latest
     steps:
       - run: |
